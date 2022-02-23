@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FF79306539E621C61286335 /* Pods_ExHero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5B66815CFEF07027A78609 /* Pods_ExHero.framework */; };
 		C69C426127C5CAF700CA4206 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69C426027C5CAF700CA4206 /* AppDelegate.swift */; };
 		C69C426327C5CAF700CA4206 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69C426227C5CAF700CA4206 /* SceneDelegate.swift */; };
 		C69C426527C5CAF700CA4206 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69C426427C5CAF700CA4206 /* ViewController.swift */; };
 		C69C426827C5CAF700CA4206 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69C426627C5CAF700CA4206 /* Main.storyboard */; };
 		C69C426A27C5CAF900CA4206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C69C426927C5CAF900CA4206 /* Assets.xcassets */; };
 		C69C426D27C5CAF900CA4206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69C426B27C5CAF900CA4206 /* LaunchScreen.storyboard */; };
+		C69C427727C5E0E000CA4206 /* ViewControllerPannable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69C427627C5E0E000CA4206 /* ViewControllerPannable.swift */; };
+		C69C427927C5E18800CA4206 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69C427827C5E18800CA4206 /* VC2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B5B66815CFEF07027A78609 /* Pods_ExHero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExHero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CD286932F802220B37E261B /* Pods-ExHero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExHero.debug.xcconfig"; path = "Target Support Files/Pods-ExHero/Pods-ExHero.debug.xcconfig"; sourceTree = "<group>"; };
+		A5A09AB097BC5EFA68699A15 /* Pods-ExHero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExHero.release.xcconfig"; path = "Target Support Files/Pods-ExHero/Pods-ExHero.release.xcconfig"; sourceTree = "<group>"; };
 		C69C425D27C5CAF700CA4206 /* ExHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExHero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C69C426027C5CAF700CA4206 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C69C426227C5CAF700CA4206 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		C69C426927C5CAF900CA4206 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C69C426C27C5CAF900CA4206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C69C426E27C5CAF900CA4206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C69C427627C5E0E000CA4206 /* ViewControllerPannable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPannable.swift; sourceTree = "<group>"; };
+		C69C427827C5E18800CA4206 /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FF79306539E621C61286335 /* Pods_ExHero.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7577896F010C63611B8A6179 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CD286932F802220B37E261B /* Pods-ExHero.debug.xcconfig */,
+				A5A09AB097BC5EFA68699A15 /* Pods-ExHero.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C69C425427C5CAF700CA4206 = {
 			isa = PBXGroup;
 			children = (
 				C69C425F27C5CAF700CA4206 /* ExHero */,
 				C69C425E27C5CAF700CA4206 /* Products */,
+				7577896F010C63611B8A6179 /* Pods */,
+				E101BF34CE3EEFC6DBE62061 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +79,22 @@
 				C69C426027C5CAF700CA4206 /* AppDelegate.swift */,
 				C69C426227C5CAF700CA4206 /* SceneDelegate.swift */,
 				C69C426427C5CAF700CA4206 /* ViewController.swift */,
+				C69C427627C5E0E000CA4206 /* ViewControllerPannable.swift */,
+				C69C427827C5E18800CA4206 /* VC2.swift */,
 				C69C426627C5CAF700CA4206 /* Main.storyboard */,
 				C69C426927C5CAF900CA4206 /* Assets.xcassets */,
 				C69C426B27C5CAF900CA4206 /* LaunchScreen.storyboard */,
 				C69C426E27C5CAF900CA4206 /* Info.plist */,
 			);
 			path = ExHero;
+			sourceTree = "<group>";
+		};
+		E101BF34CE3EEFC6DBE62061 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B5B66815CFEF07027A78609 /* Pods_ExHero.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C69C427127C5CAF900CA4206 /* Build configuration list for PBXNativeTarget "ExHero" */;
 			buildPhases = (
+				AEE9AD6B71F088FD0A6B84B7 /* [CP] Check Pods Manifest.lock */,
 				C69C425927C5CAF700CA4206 /* Sources */,
 				C69C425A27C5CAF700CA4206 /* Frameworks */,
 				C69C425B27C5CAF700CA4206 /* Resources */,
+				FB4A72E2A19B3D22F215DCF7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +165,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AEE9AD6B71F088FD0A6B84B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExHero-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB4A72E2A19B3D22F215DCF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExHero/Pods-ExHero-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExHero/Pods-ExHero-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExHero/Pods-ExHero-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C69C425927C5CAF700CA4206 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,7 +214,9 @@
 			files = (
 				C69C426527C5CAF700CA4206 /* ViewController.swift in Sources */,
 				C69C426127C5CAF700CA4206 /* AppDelegate.swift in Sources */,
+				C69C427927C5E18800CA4206 /* VC2.swift in Sources */,
 				C69C426327C5CAF700CA4206 /* SceneDelegate.swift in Sources */,
+				C69C427727C5E0E000CA4206 /* ViewControllerPannable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +360,7 @@
 		};
 		C69C427227C5CAF900CA4206 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CD286932F802220B37E261B /* Pods-ExHero.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +389,7 @@
 		};
 		C69C427327C5CAF900CA4206 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5A09AB097BC5EFA68699A15 /* Pods-ExHero.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
