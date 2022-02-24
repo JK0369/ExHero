@@ -16,6 +16,7 @@
 		C69C426D27C5CAF900CA4206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69C426B27C5CAF900CA4206 /* LaunchScreen.storyboard */; };
 		C69C427727C5E0E000CA4206 /* ViewControllerPannable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69C427627C5E0E000CA4206 /* ViewControllerPannable.swift */; };
 		C69C427927C5E18800CA4206 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69C427827C5E18800CA4206 /* VC2.swift */; };
+		C6C37AC427C71C5E001E2784 /* VC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C37AC327C71C5E001E2784 /* VC3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		C69C426E27C5CAF900CA4206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C69C427627C5E0E000CA4206 /* ViewControllerPannable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPannable.swift; sourceTree = "<group>"; };
 		C69C427827C5E18800CA4206 /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		C6C37AC327C71C5E001E2784 /* VC3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				C69C426427C5CAF700CA4206 /* ViewController.swift */,
 				C69C427627C5E0E000CA4206 /* ViewControllerPannable.swift */,
 				C69C427827C5E18800CA4206 /* VC2.swift */,
+				C6C37AC327C71C5E001E2784 /* VC3.swift */,
 				C69C426627C5CAF700CA4206 /* Main.storyboard */,
 				C69C426927C5CAF900CA4206 /* Assets.xcassets */,
 				C69C426B27C5CAF900CA4206 /* LaunchScreen.storyboard */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6C37AC427C71C5E001E2784 /* VC3.swift in Sources */,
 				C69C426527C5CAF700CA4206 /* ViewController.swift in Sources */,
 				C69C426127C5CAF700CA4206 /* AppDelegate.swift in Sources */,
 				C69C427927C5E18800CA4206 /* VC2.swift in Sources */,
